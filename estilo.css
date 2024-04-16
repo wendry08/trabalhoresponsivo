@@ -1,0 +1,101 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+#todo{
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+    height: 300px;
+    display: flex;
+}
+#ladoe{
+    width: 50%;
+    height: 500px;
+    background-color: hsl(31, 77%, 52%);
+}
+#meio{
+    width: 50%;
+    height: 500px;
+    background-color: hsl(184, 100%, 22%);
+}
+#ladod{
+    width: 50%;
+    height: 500px;
+    background-color: hsl(179, 100%, 13%);
+}
+.title{
+    color: aliceblue;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    margin-left: 13%;
+    font-size: 250%;
+}
+.paragrafo{
+    color: aliceblue;
+    font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  margin-left: 13%;
+  font-size: 110%;
+  line-height: 2;
+   
+}
+#button1{
+    background-color: aliceblue;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Lexend Deca';
+    margin-top: 18%;
+    margin-left: 20%;
+    color: hsl(31, 77%, 52%);
+}
+#button2{
+    background-color: aliceblue;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Lexend Deca';
+    margin-top: 18%;
+    margin-left: 25%;
+    color: hsl(184, 100%, 22%);
+}
+#button3{
+    background-color: aliceblue;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Lexend Deca';
+    margin-top: 18%;
+    margin-left: 27%;
+    color: hsl(179, 100%, 13%);
+}
+.imgs{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+@media screen and (max-width: 1150px){
+    #todo{
+        display: block;
+    }
+    #meio{
+        background-color: hsl(184, 100%, 22%);
+    }
+    #ladoe{
+        background-color: hsl(31, 77%, 52%);
+    }
+    #ladod{
+        background-color: hsl(179, 100%, 13%);
+    }
+}
+    
